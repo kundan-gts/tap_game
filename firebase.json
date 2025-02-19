@@ -1,0 +1,55 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "multiplayer-tapgame",
+          "appId": "1:22830959120:android:47eccdf80bac65d1251895",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "multiplayer-tapgame",
+          "appId": "1:22830959120:ios:1595a48664dfab9d251895",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "multiplayer-tapgame",
+          "appId": "1:22830959120:ios:1595a48664dfab9d251895",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "multiplayer-tapgame",
+          "configurations": {
+            "android": "1:22830959120:android:47eccdf80bac65d1251895",
+            "ios": "1:22830959120:ios:1595a48664dfab9d251895",
+            "macos": "1:22830959120:ios:1595a48664dfab9d251895",
+            "web": "1:22830959120:web:bc3cdc8c7b85f157251895",
+            "windows": "1:22830959120:web:bc927cc6b36babe8251895"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

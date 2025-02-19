@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22830959120",
+    "project_id": "multiplayer-tapgame",
+    "storage_bucket": "multiplayer-tapgame.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22830959120:android:47eccdf80bac65d1251895",
+        "android_client_info": {
+          "package_name": "com.example.tap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyNj7SGiAMMX0IUt9vX05DRHl4V2aymio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
